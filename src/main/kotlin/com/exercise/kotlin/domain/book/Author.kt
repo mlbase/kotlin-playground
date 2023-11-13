@@ -7,10 +7,10 @@ class Author(private val name: String) {
             return false
         }
         val inputObj: Author = other as Author
-        return inputObj::name == this::name
+        return inputObj.name == name
     }
 
     override fun hashCode(): Int {
-        return this::name.hashCode()
+        return name.hashCode()
     }
 }
