@@ -2,7 +2,7 @@ package com.exercise.kotlin.domain.book
 
 import java.util.Date
 
-class Meta(private val isbn: String, private val publishDate: Date){
+class Meta(private val isbn: String, private val publishDate: Date, private val price: Price){
 
     private var context: String? = null
 
