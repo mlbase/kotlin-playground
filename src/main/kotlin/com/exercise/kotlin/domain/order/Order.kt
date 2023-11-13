@@ -1,4 +1,4 @@
-package com.exercise.kotlin.domain
+package com.exercise.kotlin.domain.order
 
 class Order {
 }
